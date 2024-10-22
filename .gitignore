@@ -1,4 +1,9 @@
+# .env specifies private keys, usernames, passwords, etc.
 .env
-/venv
-/Excel Sheets
-/Graphs
+
+# No need to store the virtual environment on git
+/venv/
+
+# Data from before database switch
+/Excel\ Sheets/
+/Graphs/
